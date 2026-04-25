@@ -416,7 +416,8 @@ body.os-body {
 }
 
 .gallery-item:hover .gallery-figure img,
-.gallery-item:focus-within .gallery-figure img {
+.gallery-item:focus-within .gallery-figure img,
+.gallery-item.is-mobile-active .gallery-figure img {
   filter: grayscale(0%);
 }
 
