@@ -3,6 +3,7 @@
 :root {
   --ink: #000000;
   --paper: #ffffff;
+  --placeholder: #3d3d3d;
   --fred: #0061aa;
   --hire-green: #00a854;
   --border: 1px solid var(--ink);
@@ -400,7 +401,7 @@ body.os-body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: #e8e8e8;
+  background: var(--placeholder);
 }
 
 .gallery-figure img {
